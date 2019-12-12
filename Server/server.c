@@ -1,13 +1,3 @@
-/*
-  CN Project
-  Server (with senders)
-  Group Members: 
-    Naishi Shah (1741033)
-    Manav Darji (1741056)
-    Nisarg Shah (1741087)
-    Shantanu Sheth (1741088)
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
