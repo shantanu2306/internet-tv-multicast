@@ -1,6 +1,12 @@
 ## Internet TV/Radio Multicast
 An IP Multicast model has been implemented socket programming in c.   
-Model Flow: 
+
+## Collaborators
+- Nisarg Shah (@nisarg1499)
+- Naishi Shah
+- Shantanu Sheth
+
+## Model Flow: 
 - Initially by running the `server` program, the server setups 2 multicast groups at different multicast address.
 - Both groups have threads running for transmission of data which are active after the setup immediately. 
 - When a new client arrives, it receives the available stations present through a **TCP Socket**.
