@@ -21,10 +21,10 @@ An IP Multicast model has been implemented socket programming in c.
   
 - Client
   - Compiling: `gcc client.c -o client -lpthread`
-  - Running: `sudo ./client SERVER_IP PORT`   
+  - Running: `sudo ./client SERVER_IP PORT` (`sudo` is mandatory, as it accesses accesses network interface).
   - `SERVER_IP`: Server IP (`0.0.0.0 / 127.0.0.1` if running in same machine else IP address of Server)   
   - `PORT`: Client Port
   - For Playing the audio/video file received through socket in client, run the following command in new window: `ffplay -i <filename.extension>`
   - For pause operation, press `p` on the terminal receiving the data. It acts as a keyboard interrupt.
   - For restart, press `r` on the terminal.
-  
+  - Also, do change the interface name in code according to machine (Use `ifconfig` command).
